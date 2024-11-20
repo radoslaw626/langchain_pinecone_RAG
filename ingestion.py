@@ -9,7 +9,7 @@ load_dotenv()
 
 if __name__ == '__main__':
     print("loading...")
-    loader = TextLoader('C:/Users/mical/Desktop/LangChain/vector_dbs/mediumblog.txt', encoding='utf-8')
+    loader = TextLoader('C:/Users/mical/Desktop/LangChain/pinecone_RAG/mediumblog.txt', encoding='utf-8')
     document = loader.load()
 
     print("splitting...")
